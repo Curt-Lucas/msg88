@@ -38,9 +38,9 @@ def decrypt(passphrase, token):
 def receive(socket, signal):
     while signal:
         try:
-            data = socket.recv(32)
-            print(data)
-            #print(str(decrypt(passphrase, data.decode("utf-8"))))
+            data = socket.recv(8000)
+            #print(data)
+            print(str(decrypt(passphrase, data.decode("utf-8"))))
         except:
             print("Disconnected")
             signal = False
