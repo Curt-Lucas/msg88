@@ -4,6 +4,7 @@
 **Figure 1.**
 
 Communication between B and C are facilitated by A. 
+
 <img src="https://raw.githubusercontent.com/Curt-Lucas/msg88/main/fig1.png"/>
 
 **Workflow**
