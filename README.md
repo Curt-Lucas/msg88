@@ -13,6 +13,10 @@ Communication between B and C are facilitated by A. Passphrases are prearranged 
  - C (HANDLER) executes c.py and enters the same passphrase
  - B and C can now communicate securely
 
+**Install requirements**
+
+pip install cryptography
+
 **Passphrases**
 
 Used to encrypt messages being sent over commercial internet infrastructure. Passphrases need to be complex.
