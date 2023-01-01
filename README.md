@@ -3,7 +3,7 @@
 
 **Figure 1.**
 
-Communication between B and C are facilitated by A. Passphrases are prearranged by B and C. Passphrases are NOT passed to the server. See below.
+Communication between B and C are facilitated by A. Passphrases are prearranged by B and C. Passphrases are NEVER transmitted. See below.
 
 <img src="https://raw.githubusercontent.com/Curt-Lucas/msg88/main/fig1.png"/>
 
