@@ -7,17 +7,17 @@ Communication between B and C are facilitated by A. Passphrases are prearranged 
 
 <img src="https://raw.githubusercontent.com/Curt-Lucas/msg88/main/fig1.png"/>
 
-**Workflow**
+**Workflow Example**
  - A (COMSEC) executes a.py
  - B (ASSET) executes b.py and enters the passphrase
  - C (HANDLER) executes c.py and enters the same passphrase
  - B and C can now communicate securely
 
-**Install requirements**
+## Install requirements
 
 pip install cryptography
 
-**Passphrases**
+## Passphrases
 
 Used to encrypt messages being sent. 
 
